@@ -1,0 +1,56 @@
+/*Global Fonts*/
+
+body {
+	background: url("../img/bg.png");
+	font-family: 'Open Sans', sans-serif;
+}
+
+/* Navigation - All (Base Styling) Links */
+nav li{
+	float: left;
+	list-style: none;
+	margin: 0 20px;
+}
+
+/* Navigation - Link States */
+nav a:link,
+nav a:visited{
+	padding: 20px 20px 20px 40px;
+}
+
+nav a:hover,
+nav a:active {
+
+}
+
+/*Show First Link Icon on hover*/
+#first a:hover,
+#first a:active{
+	background: url("../img/link-1.png") no-repeat left center;
+}
+
+/* Style Aside Image Round */
+section img,
+aside img {
+	border-radius: 10px;
+}
+
+/* First image border inside section*/
+section h3 + img {
+	border:4px solid black;
+}
+
+/* Leadin Paragraph*/
+h3 + p,
+img+p{
+	color:teal;
+}
+
+aside li ul > li {
+	background: red;
+}
+
+/* Helper Classes */
+.showgrid {
+	background: url("../img/grid-bg.png");
+}
